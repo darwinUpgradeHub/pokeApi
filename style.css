@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:var(--clr-black);
+  font-family: rubik,sans-serif;
+}
+ul {
+  list-style-type:none;
+}
+
+button{
+  background-color: transparent;
+  border: 0;
+  justify-content: space-around;
+}
+body {
+  background-color: #f20505;
+  text-align: center;
+  color: rgb(16, 15, 14);
+  font-size: 15px;
+opacity: inherit;
+  
+}
+
+.portada{
+  
+  display: inline flow-root list-item;
+  width: 70%;
+  height: 50%;
+  list-style: none;
+  
+  border-radius: 5%;
+}
+
+.text{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  
+
+}
+.testo{
+display: flex;
+  justify-content: center;
+ align-items: center;
+}
+button {
+    padding: 8px ;
+    margin: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: aliceblue;
+    
+  }
+
+  /* Colores para los botones */
+  button.agua {
+    background-color: #74eed1; /* Azul */
+    color: #090703;
+  }
+
+  button.fuego {
+    background-color: #74eed1; /* Rojo */
+    color: #090703;
+  }
+
+  button.normal {
+    background-color: #74eed1; /* Gris */
+    color: #090703;
+  }
+  button.hada {
+    background-color: #74eed1; /* Gris */
+    color: #090703;
+  }
+  button.planta {
+    background-color: #74eed1; /* Gris */
+    color: #090703;
+  }
+  button.tierra{
+    background-color: #74eed1; /* Gris */
+    color: #090703;
+  }
+  button.lucha {
+    background-color: #74eed1; /* Gris */
+    color: #090703;
+  }
+   button.psiquico {
+    background-color: #74eed1; /* Gris */
+    color: #090703;
+  }
+
+img {
+  
+  width: 100%;
+  
+  box-sizing: border-box;
+}
+
+figure {
+   display: contents;
+  overflow: hidden;
+  width: 100px;
+  
+}
+
+img:hover {
+  transform: scale(1.15) rotate(10deg);
+  transition: 1s;
+}
+.Pokemons {
+
+    max-width: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.Pokemons article {
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*body {
+  background-color: rgb(167, 107, 85);
+  margin: 0;
+  font-family: rubik;
+  color: white;
+}
+.container {
+  padding: 40px;
+  margin: 0 auto;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 54px;
+}
+.card {
+  list-style: none;
+  padding: 40px;
+  background-color: #f4f4f4;
+  color: #222;
+  text-align: center;
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.card-subtitle {
+  font-weight: lighter;
+  color: #666;
+  margin-top: 5px;
+}
+.card-image {
+  height: 180px;
+}
+#pokedex {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(-0px);
+  }
+}
